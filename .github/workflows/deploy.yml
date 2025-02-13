@@ -29,6 +29,6 @@ jobs:
             # Ensure nginx is installed and running
             sudo apt-get update
             sudo apt-get install -y nginx
-            echo "Hello, World!" | sudo tee /var/www/html/index.html
+            echo "Hello, World welcome to github !" | sudo tee /var/www/html/index.html
             sudo systemctl restart nginx
           EOF
